@@ -1,0 +1,69 @@
+
+.profile {
+    justify-content: flex-end;
+}
+.back-hold {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 60px;
+}
+.back-hold div:nth-child(4) {
+    background-color: var(--primary-color);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    box-shadow: var(--circle-shadow);
+    position: absolute;
+    left: -400px;
+}
+
+.back-hold div:nth-child(5) {
+    background-color: var(--secondary-color);
+    height: 22vh;
+    width: 22vh;
+    border-radius: 50%;
+    box-shadow: var(--circle-shadow);
+    position: absolute;
+    left: -420px;
+    top: -70px
+}
+
+.back-hold div:nth-child(3) {
+    background-color: var(--secondary-color);
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    box-shadow: var(--circle-shadow);
+    position: absolute;
+    left: -240px;
+    top: -30px;
+}
+
+.back-hold div:nth-child(1) {
+    background-color: var(--secondary-color);
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    box-shadow: var(--circle-shadow);
+    position: absolute;
+    left: -230px;
+    top: -80px;
+}
+
+.back-hold div:nth-child(2) {
+    background-color: var(--secondary-color);
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    box-shadow: var(--circle-shadow);
+    position: absolute;
+    left: -445px;
+    top: 70px;
+}
+.back-hold img {
+    position: relative;
+    height: 88vh;
+    top: -120px;
+    left: -550px;
+}

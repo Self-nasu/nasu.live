@@ -1,0 +1,20 @@
+.navbar {
+    font-size: 12px;
+}
+.Weblogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Weblogo img {
+    height: 9vh;
+}
+.Weblogo a {
+    font-family: var(--desginer-font);
+    font-weight: 800;
+    font-size: 2.2em;
+}
+.right-navbar a {
+    margin-right: 56px;
+    font-size: 1.5em;
+}

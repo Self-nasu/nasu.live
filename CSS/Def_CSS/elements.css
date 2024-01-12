@@ -1,0 +1,31 @@
+/* Defaut Link styles */
+
+.def-link {
+    font-family: var(--normal-font);
+    text-decoration: none;
+    color: black;
+}
+
+/* Custom Button CSS */
+
+.fill-btn {
+    background-color: var(--primary-color);
+    border-radius: 11px;
+    padding: 3px 24px !important;
+    font-size: 1.5em;
+    margin: 0px !important;
+    font-family: var(--normal-font);
+    transition: background-color 0.2s linear;
+    border: 0px;
+}
+.fill-btn:hover {
+    background-color: var(--primary-color);
+}
+.fill-btn:active {
+    background-color: var(--primary-color-click) !important;
+    border: 0px;
+}
+
+.outline-btn {
+    border: 2px solid var(--primary-color);
+}

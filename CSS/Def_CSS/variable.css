@@ -1,0 +1,23 @@
+/* WebSite Root Variable */
+
+:root {
+    /* Main Color */
+    --primary-color: #ff9900;
+    --primary-color-click: #f79400;
+    --secondary-color: #ffbf5f;
+  
+    /* border and shadow Color */
+    --shadow-light: #a5a5a5;
+    --shadow-dark: #515151;
+    --dark-border: #727272;
+  
+    /* Background and text colors */
+    --body-bg: #EBEBEB;
+
+    /* Lemonada Font */
+    --desginer-font: 'Lemonada', sans-serif;
+    --normal-font: 'Lexend', sans-serif;
+
+    --circle-shadow: 0.8px 0px 3px var(--shadow-dark);
+
+  }
