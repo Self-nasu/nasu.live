@@ -5,8 +5,8 @@
 .back-hold {
     display: flex;
     position: absolute;
-    top: 200px;
-    right: 60px;
+    top: 240px;
+    right: 90px;
 }
 .back-hold div:nth-child(4) {
     background-color: var(--primary-color);
@@ -42,12 +42,12 @@
 
 .back-hold div:nth-child(1) {
     background-color: var(--secondary-color);
-    height: 9vh;
-    width: 9vh;
+    height: 7vh;
+    width: 7vh;
     border-radius: 50%;
     box-shadow: var(--circle-shadow);
     position: absolute;
-    left: -230px;
+    left: -215px;
     top: -80px;
 }
 
@@ -61,9 +61,30 @@
     left: -445px;
     top: 70px;
 }
-.back-hold img {
-    position: relative;
-    height: 88vh;
-    top: -120px;
-    left: -550px;
+
+/* About Me */
+
+.about {
+    display: flex;
+    align-content: center;
+}
+.bio {
+    justify-self: flex-start;
+}
+.Intro-head {
+    font-weight: 600;
+}
+
+.Intro-head span{
+    color: var(--primary-color);
+    font-family: var(--desginer-font);
+    font-weight: 700;
+}
+.profile-img {
+    justify-self: flex-end;
+    z-index: 2;
+}
+
+.profile-img img {
+    height: 84vh;
 }

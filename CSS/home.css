@@ -1,3 +1,10 @@
 * {
+    font-family: var(--normal-font);
+}
+body {
     background-color: var(--body-bg);
+}
+
+.section-gap {
+    margin-top: 5vh;
 }
