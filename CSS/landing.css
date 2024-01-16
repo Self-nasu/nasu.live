@@ -5,7 +5,7 @@
 .back-hold {
     display: flex;
     position: absolute;
-    top: 240px;
+    top: 205px;
     right: 90px;
 }
 .back-hold div:nth-child(4) {
@@ -67,9 +67,14 @@
 .about {
     display: flex;
     align-content: center;
+    padding: 0 7vw 0 4vw;
 }
 .bio {
     justify-self: flex-start;
+    z-index: 2;
+}
+.introduction {
+    font-size: 40px;
 }
 .Intro-head {
     font-weight: 600;
@@ -80,11 +85,25 @@
     font-family: var(--desginer-font);
     font-weight: 700;
 }
+.my-work {
+    font-size: 0.8em;
+}
+.short-intro {
+    font-size: 0.45em;
+    width: 80%;
+}
 .profile-img {
     justify-self: flex-end;
     z-index: 2;
+    filter: var(--circle-shadow);
 }
 
 .profile-img img {
     height: 84vh;
+}
+
+.btn-line a:nth-child(2) {
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+    margin-left: 2.5% !important;
 }

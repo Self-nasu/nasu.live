@@ -11,12 +11,12 @@
 .fill-btn {
     background-color: var(--primary-color);
     border-radius: 11px;
-    padding: 3px 24px !important;
+    padding: 2px 21px 2px 21px!important;
     font-size: 1.5em;
     margin: 0px !important;
     font-family: var(--normal-font);
     transition: background-color 0.2s linear;
-    border: 0px;
+    border: 3px solid var(--primary-color);
 }
 .fill-btn:hover {
     background-color: var(--primary-color);
@@ -27,5 +27,19 @@
 }
 
 .outline-btn {
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 11px;
+    padding: 2px 21px 2px 21px!important;
+    font-size: 1.5em;
+    margin: 0px !important;
+    font-family: var(--normal-font);
+}
+.outline-btn:hover {
+    animation: outline-btn 0.5s forwards linear;
+}
+
+@keyframes outline-btn {
+    100% {
+        box-shadow: inset 180px 0 0 var(--primary-color);
+    }
 }
